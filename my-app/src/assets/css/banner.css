@@ -1,0 +1,26 @@
+.banner {
+    width: 1240px;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(70%);
+    opacity: 30;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-title {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+}

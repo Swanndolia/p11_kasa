@@ -1,10 +1,10 @@
 const CardsHome = (props) => {
     const accomodation = props.accomodation
     return (
-        <div>
-            <h1>{accomodation.title}</h1>
+        <figure>
+            <figcaption>{accomodation.title}</figcaption>
             <img src={accomodation.cover} alt="cover"></img>
-        </div>)
+        </figure>)
 };
 
 export default CardsHome;
