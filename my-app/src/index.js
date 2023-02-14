@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './assets/css/index.css';
-import Home from './pages/home.js';
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-ReactDOM.render(
-  <BrowserRouter>
-    <Home />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+import Router from "./pages/router.js"
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Router></Router>
+    </BrowserRouter>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
