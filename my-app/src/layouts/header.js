@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <>
       <nav>
-            <img src={logo}></img>
+            <img src={logo} alt="logo"></img>
             <Link to="/about">A Propos</Link>
             <Link to="/">Acceuil</Link>
       </nav>
