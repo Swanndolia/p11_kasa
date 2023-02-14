@@ -8,7 +8,7 @@ function generateCards(){
   const accomodationsCards = []
   accomodations.forEach(accomodation => {
     accomodationsCards.push(
-    <div>
+    <div key={accomodation.id}>
       <h1>{accomodation.title}</h1>
       <img src={accomodation.cover}></img>
     </div>
