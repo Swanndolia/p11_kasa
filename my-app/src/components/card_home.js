@@ -1,7 +1,9 @@
-const CardsHome = (props) => {
-    const accomodation = props.accomodation
+import { useNavigate } from "react-router-dom";
+
+const CardsHome = ({accomodation}) => {
+    const navigate = useNavigate();
     return (
-        <figure>
+        <figure onClick={() => navigate("/accomodation/" + accomodation.id )}>
             <figcaption>{accomodation.title}</figcaption>
             <img src={accomodation.cover} alt="cover"></img>
         </figure>)

@@ -1,5 +1,5 @@
-const Accomodation = () => {
-    return <h1>Accomodation</h1>;
+const Accomodation = (accomodation) => {
+    return <figure><figcaption></figcaption></figure>;
   };
   
   export default Accomodation;
