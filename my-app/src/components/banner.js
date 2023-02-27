@@ -1,7 +1,6 @@
 import '../assets/css/banner.css';
 
-const Banner = (props) => {
-    const bannerLink = props.bannerLink
+const Banner = ({bannerLink}) => {
     return (
         <div className='banner-container'>
             <h1 className='banner-title'>Chez vous, partout et ailleurs</h1>
