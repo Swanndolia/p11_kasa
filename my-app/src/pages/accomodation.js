@@ -2,6 +2,8 @@ import { useLocation } from 'react-router-dom';
 import Collapse from '../components/collapse';
 import Carousel from '../components/carousel';
 
+import "../assets/css/accomodation.css"
+
 const Accomodation = () => {
   const accomodation = useLocation().state
   return (
@@ -9,11 +11,12 @@ const Accomodation = () => {
       <Carousel pictures={accomodation.pictures} />
       <h1>{accomodation.title}</h1>
       <h2>{accomodation.location}</h2>
-      <div>
+      <div className='tag-list'>
         {accomodation.tags.map(tag => (
-          <span key={tag}>{tag}</span>
+          <span className='tag-item' key={tag}>{tag}</span>
         ))}
       </div>
+      <section className='accomodation-section'>
       <Collapse
         trigger="Description"
         content={<p>{accomodation.description}</p>}
@@ -27,6 +30,7 @@ const Accomodation = () => {
           </ul>
         }
       />
+      </section>
     </>
   );
 };

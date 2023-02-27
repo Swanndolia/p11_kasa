@@ -1,0 +1,36 @@
+.carousel {
+    height: 415px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 25px;
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.carousel-caption > button{
+    margin-top: -185px;
+    margin-bottom: 160px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 60px;
+}
