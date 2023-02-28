@@ -20,7 +20,7 @@ main {
 .img-home {
   width: 340px;
   height: 340px;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .figcaption-home{
@@ -28,4 +28,15 @@ main {
   margin: 0;
   bottom: 5%;
   left: 5%;
+}
+
+@media (max-width: 480px) {
+  .img-home {
+    width: 335px;
+    height: 255px;
+    border-radius: 10px;
+  }
+  main {
+    background-color: white;
+  }
 }

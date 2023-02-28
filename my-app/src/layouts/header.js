@@ -10,8 +10,8 @@ const Header = () => {
             <header>
                 <img src={logo} alt="logo"></img>
                 <nav>
+                    <Link className="link-nounderline" to="/">Accueil</Link>
                     <Link to="/about">A Propos</Link>
-                    <Link to="/">Acceuil</Link>
                 </nav>
             </header>
             <Outlet />

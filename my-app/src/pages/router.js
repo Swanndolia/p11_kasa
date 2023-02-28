@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../layouts/header.js";
 import Footer from "../layouts/footer.js";
 
+
 import Home from "./home.js";
 import About from "./about.js";
 import Error404 from "./error404.js";

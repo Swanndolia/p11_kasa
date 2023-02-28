@@ -5,9 +5,20 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 nav {
     display: flex;
     gap: 20px;
+}
+
+.link-nounderline{
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+header > img {
+    max-width: 40%;
+}
 }
