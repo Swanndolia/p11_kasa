@@ -23,11 +23,11 @@ const Carousel = ({ pictures }) => {
     return (
         <figure className="carousel">
             <figcaption className='carousel-caption'>
-                <button onClick={handlePrevious}><img className='nav-arrow' src={arrow_left} alt="arrow_left" /></button>
+                <button onClick={handlePrevious}><img className='nav-arrow' src={arrow_left} alt="arrow left" /></button>
                 <p>{index + 1}/{length}</p>
                 <button onClick={handleNext}><img className='nav-arrow' src={arrow_right} alt="arrow right"/></button>
             </figcaption>
-            <img className="carousel-img" src={pictures[index]}></img>
+            <img className="carousel-img" src={pictures[index]} alt="carousel" />
 
         </figure>
     );

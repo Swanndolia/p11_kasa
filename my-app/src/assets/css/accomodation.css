@@ -36,7 +36,46 @@ h1 {
     gap: 10px;
 }
 
+.details-accomodation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rating-accomodation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.host-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    white-space: pre;
+}
+.host-picture{
+    border-radius: 50%;
+    width: 64px;
+}
+#details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media (max-width: 480px) {
+    #details-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rating-accomodation{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .host-picture{
+        width: 32px;
+    }
     .accomodation-section {
         display: flex;
         flex-direction: column;

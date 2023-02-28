@@ -1,4 +1,4 @@
-header{
+header {
     padding: 40px 0;
     height: 68px;
     display: flex;
@@ -14,15 +14,16 @@ nav {
     font-size: 24px;
 }
 
-.link-nounderline{
+.link-nounderline {
     text-decoration: none;
 }
 
 @media (max-width: 480px) {
-header > img {
-    max-width: 50%;
-}
-nav {
-    font-size: 12px;
-}
+    header>img {
+        max-width: 50%;
+    }
+
+    nav {
+        font-size: 12px;
+    }
 }

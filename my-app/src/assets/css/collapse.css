@@ -31,4 +31,11 @@
     .collapse-btn {
         height: 30px;
     }
+    .dropdown>p {
+        font-size: 12px;
+    }
+    
+    .dropdown>ul {
+        font-size: 12px;
+    }
 }

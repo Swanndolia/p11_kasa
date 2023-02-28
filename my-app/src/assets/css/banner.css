@@ -28,10 +28,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    font-size: 48px;
+    width: 100%;
+}
+
+.banner-title::after{
+    content:"Chez vous, partout et ailleurs";
 }
 
 @media (max-width: 480px) {
     .banner-container {
+        margin: auto;
+        width: 335px;
         height: 111px;
     }
     .banner-title {
@@ -42,5 +50,10 @@
         left: 5%;
         transform: translate(0%, 0%);
         z-index: 10;
+        font-size: 24px;
+    }
+    .banner-title::after{
+        content:"Chez vous,\A partout et ailleurs";
+        white-space: pre; /* or pre-wrap */
     }
 }
