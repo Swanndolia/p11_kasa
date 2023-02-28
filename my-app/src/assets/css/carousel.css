@@ -25,7 +25,8 @@
     right: 0;
     color: white;
 }
-.carousel-caption > button{
+
+.carousel-caption>button {
     margin-top: -185px;
     margin-bottom: 160px;
     background-color: transparent;
@@ -34,7 +35,7 @@
     font-size: 60px;
 }
 
-.nav-arrow{
+.nav-arrow {
     width: 3vw;
 }
 
@@ -42,4 +43,12 @@
     .carousel {
         height: 255px;
     }
+    .carousel-caption > button{
+        margin-top: -100px;
+        margin-bottom: 100px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 60px;
     }
+}

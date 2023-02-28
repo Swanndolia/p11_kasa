@@ -1,4 +1,4 @@
-.collapse-btn{
+.collapse-btn {
     background-color: #FF6060;
     border: none;
     border-radius: 10px;
@@ -12,11 +12,23 @@
     align-items: center;
 }
 
-.dropdown{
+.dropdown {
     background-color: #f7f7f7;
     border-radius: 25px;
     height: fit-content;
 }
-.dropdown > p {
+
+.dropdown>p {
     padding: 0 10px;
+}
+
+.dropdown>ul {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+@media (max-width: 480px) {
+    .collapse-btn {
+        height: 30px;
+    }
 }

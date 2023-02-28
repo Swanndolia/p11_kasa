@@ -11,6 +11,7 @@ header{
 nav {
     display: flex;
     gap: 20px;
+    font-size: 24px;
 }
 
 .link-nounderline{
@@ -19,6 +20,9 @@ nav {
 
 @media (max-width: 480px) {
 header > img {
-    max-width: 40%;
+    max-width: 50%;
+}
+nav {
+    font-size: 12px;
 }
 }
